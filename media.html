@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roam & Review | Media</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Roam & Review</h1>
+
+    <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="media.html">Media</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+    <h2>Travel Gallery</h2>
+
+    <div class="large-image-container">
+        <img id="largeImage" src="images/bali.jpg" alt="Beach in Bali">
+    </div>
+
+    <div class="thumbnail-container">
+
+        <div class="gallery-item">
+            <img src="images/bali.jpg" class="thumb" onclick="changeImage(this)" alt="Bali Beach">
+            <h3>Bali, Indonesia</h3>
+            <p>Beautiful beaches and relaxing tropical vibes.</p>
+        </div>
+
+        <div class="gallery-item">
+            <img src="images/sydney.jpg" class="thumb" onclick="changeImage(this)" alt="Sydney Opera House">
+            <h3>Sydney, Australia</h3>
+            <p>Iconic landmarks and vibrant city life.</p>
+        </div>
+
+        <div class="gallery-item">
+            <img src="images/tokyo.jpg" class="thumb" onclick="changeImage(this)" alt="Tokyo city lights">
+            <h3>Tokyo, Japan</h3>
+            <p>A mix of modern technology and tradition.</p>
+        </div>
+
+    </div>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Roam & Review. All rights reserved.</p>
+    <p>
+        <a href="mailto:info@roamandreview.com">info@roamandreview.com</a>
+    </p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
